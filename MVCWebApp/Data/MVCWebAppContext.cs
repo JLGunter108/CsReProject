@@ -17,5 +17,7 @@ namespace MVCWebApp.Data
         public DbSet<MVCWebApp.Models.User> User { get; set; } = default!;
 
         public DbSet<MVCWebApp.Models.Post> Post { get; set; }
+
+        public DbSet<MVCWebApp.Models.Comment> Comment { get; set; }
     }
 }
