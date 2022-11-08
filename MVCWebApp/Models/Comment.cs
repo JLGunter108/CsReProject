@@ -1,8 +1,10 @@
-﻿namespace MVCWebApp.Models
+﻿using Microsoft.EntityFrameworkCore.Metadata.Internal;
+
+namespace MVCWebApp.Models
 {
     public class Comment
     {
         public int Id { get; set; }
-        public int post;
+        public Post post { get; set; }
     }
 }
